@@ -1,4 +1,4 @@
-﻿{
+{
   "userSecretsId": "aspnet5-POC-c1c9da42-78e4-475f-9052-23f0663ba7d4",
   "version": "1.0.0-*",
   "compilationOptions": {
@@ -7,7 +7,6 @@
 
   "dependencies": {
     "EntityFramework.Commands": "7.0.0-rc1-final",
-    "Microsoft.ApplicationInsights.AspNet": "1.0.0-rc1",
     "Microsoft.AspNet.Authentication.Cookies": "1.0.0-rc1-final",
     "Microsoft.AspNet.Diagnostics.Entity": "7.0.0-rc1-final",
     "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",

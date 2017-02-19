@@ -1,6 +1,19 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-<div>
-Home Page   
+
+@section Styles {
+    <environment names="Development">
+        <link rel="stylesheet" href="~/css/Home/Index.css" />
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="~/css/Home/Index.min.css" asp-append-version="true" />
+    </environment>
+}
+
+<div class="jumbotron">
+    <h1>EZ Budget</h1>
+    <p class="lead">
+        Bienvenu sur la plateforme EZ Budget, veuillez faire votre choix parmis les options ci-haut.
+    </p>
 </div>
